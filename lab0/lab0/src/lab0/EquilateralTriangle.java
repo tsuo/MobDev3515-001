@@ -9,6 +9,15 @@ package lab0;
  *
  * @author tsuoi
  */
-public class EquilateralTriangle {
+public class EquilateralTriangle extends Triangle{
+    public EquilateralTriangle(String name)
+    {
+        super(name);
+        super.setDimension(0.0, 0.0, 0.0);
+    }
     
+    public void setDimension(double s)
+    {
+        super.setDimension(s, s, s);
+    }
 }
