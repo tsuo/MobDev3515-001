@@ -1,6 +1,7 @@
-package edu.temple.lab2;
+package edu.temple.signupform;
 
 import android.content.Context;
+
 import androidx.test.platform.app.InstrumentationRegistry;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 
@@ -21,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("edu.temple.lab2", appContext.getPackageName());
+        assertEquals("edu.temple.signupform", appContext.getPackageName());
     }
 }

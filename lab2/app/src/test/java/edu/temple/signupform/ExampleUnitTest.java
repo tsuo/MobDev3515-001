@@ -1,4 +1,4 @@
-package edu.temple.lab2;
+package edu.temple.signupform;
 
 import org.junit.Test;
 
